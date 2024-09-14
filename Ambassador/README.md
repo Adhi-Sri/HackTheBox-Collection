@@ -264,13 +264,9 @@ root@ambassador:~#
 ```
 Target Found:
 
-USER.txt
-...
-	50bbce61eb9c9540529f4cfeec657d60
-...
+**USER.txt**
 
-ROOT.txt
-...
-	7a7726cfadb36dfbab218295411a0159
-...
+
+**ROOT.txt**
+
 
